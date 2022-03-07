@@ -1,0 +1,726 @@
+/* first header css */
+
+.first-header {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: large;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-header {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-header img {
+    width: 55%;
+    height: 100px;
+}
+
+.left-header span {
+    color: white;
+    padding-top: 34px;
+    font-size: 22px;
+    padding-left: 4px;
+}
+
+.right-header {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+
+.right-header ul>li {
+    float: left;
+}
+
+.right-header a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 15px;
+    color: white;
+}
+
+ul li :hover {
+    color: cornflowerblue;
+}
+
+.footer .fa:hover {
+    background-color: cornflowerblue;
+}
+
+.first-header span:hover {
+    color: cornflowerblue;
+}
+
+.first-header .fa:hover {
+    color: cornflowerblue;
+}
+
+.news-icon span:hover {
+    color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+    padding-bottom: 10px;
+}
+
+.news-icon .fa:hover {
+    color: cornflowerblue;
+}
+
+
+/* end css first header */
+
+.second-header {
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.second-header ul li {
+    float: left;
+}
+
+.second-header a {
+    color: rgb(165, 161, 161);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.second-header a:hover {
+    color: white;
+}
+
+.first-img {
+    width: 100%;
+    height: 500px;
+    background-image: url('images/second1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.inner-img {
+    width: 100%;
+    height: 110px;
+    background-color: white;
+}
+
+.inner-img p {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.team {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    line-height: 1.7;
+}
+
+.left-team {
+    flex: 1;
+}
+
+.left-team h2 {
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.left-team p {
+    padding-left: 50px;
+    font-size: 15px;
+    width: 82%;
+}
+
+.right-team {
+    flex: 1;
+}
+
+.right-team img {
+    width: 90%;
+    height: 300px;
+    background-size: cover;
+}
+
+.stud {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    line-height: 1.7;
+    padding-top: 35px;
+}
+
+.left-stud {
+    flex: 1;
+}
+
+.left-stud img {
+    width: 85%;
+    height: 300px;
+    background-size: cover;
+    padding-left: 50px;
+}
+
+.right-stud {
+    flex: 1;
+}
+
+.right-stud h2 {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.right-stud p {
+    padding-left: 20px;
+    font-size: 15px;
+    width: 82%;
+}
+
+.team-studios {
+    line-height: 1.2;
+}
+
+.team-studios h1 {
+    text-align: center;
+    width: 50%;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.team-studios p {
+    margin-left: 50px;
+    width: 85%;
+    font-size: 18px;
+}
+
+.rig-text {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.app-img {
+    width: 100%;
+    height: 500px;
+    background-image: url('images/download.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.app-img p {
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 35px;
+    width: 30%;
+    line-height: 1;
+}
+
+.app-img h3 {
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.detail {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    color: white;
+}
+
+.detail h2 {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.detail h1 {
+    padding-top: 30px;
+    font-size: 29px;
+    padding-left: 50px;
+}
+
+.detail p {
+    padding-top: 40px;
+    font-size: 15px;
+    width: 60%;
+    line-height: 1.6;
+    padding-left: 50px;
+}
+
+.inner-detail {
+    width: 100%;
+    height: 370px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.inner-left {
+    flex: 1;
+    text-align: center;
+}
+
+.inner-left img {
+    padding-top: 90px;
+    /* padding-left: 130px; */
+    width: 40%;
+    height: 40%;
+    align-items: center;
+}
+
+.inner-right {
+    flex: 1;
+}
+
+.inner-right p {
+    padding-top: 30px;
+    font-size: 17px;
+    line-height: 1.3;
+    width: 90%;
+}
+
+.inner-right button {
+    margin: 30px 20px 0px 20px;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.inner-right button:hover {
+    background-color: cornflowerblue;
+}
+
+.inner-text {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+.inner-text p {
+    width: 60%;
+    line-height: 1.3;
+    padding-left: 50px;
+}
+
+.me-text {
+    width: 100%;
+    height: 290px;
+    background-color: black;
+    color: white;
+}
+
+.me-text h2 {
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 21px;
+}
+
+.me-text h1 {
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 26px;
+}
+
+.me-text p {
+    padding-top: 30px;
+    padding-left: 50px;
+    line-height: 1.4;
+    width: 50%;
+    font-size: 16px;
+}
+
+.meimg {
+    width: 100%;
+    height: 360px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.left-me {
+    flex: 1;
+}
+
+.left-me img {
+    padding-left: 50px;
+    width: 90%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right-me {
+    flex: 1;
+}
+
+.right-me p {
+    font-size: 18px;
+    line-height: 1.3;
+    padding-top: 15px;
+    margin-left: 30px;
+    width: 80%;
+}
+
+.right-me .fa {
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.right-me button {
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-top: 30px;
+}
+
+.right-me button:hover {
+    background-color: cornflowerblue;
+}
+
+.contact {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-one {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.contact-two {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.two-1 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 137px;
+}
+
+.two-1 p {
+    color: cornflowerblue;
+}
+
+.two-2 {
+    flex: 1;
+}
+
+.two-2 p:hover {
+    color: cornflowerblue;
+}
+
+.contact-type {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.4;
+}
+
+.type-one {
+    flex: 1;
+}
+
+.type-one h1 {
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-one h2 {
+    color: cornflowerblue;
+    font-size: 13px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-one p {
+    font-size: 13px;
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 70px;
+    text-align: center;
+}
+
+.contact-type-1 {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.4;
+}
+
+.type-two {
+    flex: 1;
+}
+
+.type-two h1 {
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-two h2 {
+    color: cornflowerblue;
+    font-size: 13px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-two p {
+    font-size: 13px;
+    width: 70%;
+    padding-top: 10px;
+    padding-left: 70px;
+    text-align: center;
+}
+
+.dealer {
+    display: flex;
+    width: 100;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dealer-left {
+    flex: 1;
+    line-height: 1.4;
+}
+
+.dealer-left h2 {
+    font-size: 26px;
+    padding-left: 80px;
+}
+
+.dealer-left p {
+    font-weight: bold;
+    padding-left: 80px;
+    margin: 20px 0px;
+}
+
+.dealer-left input {
+    margin-top: 23px;
+    border: none;
+    width: 50%;
+    margin-left: 80px;
+    border-bottom: 1px solid black;
+}
+
+.dealer-left button {
+    font-size: 15px;
+    border: none;
+    background-color: cornflowerblue;
+    padding: 10px 10px 10px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.dealer-left button:hover {
+    background-color: darkgrey;
+}
+
+.dealer-right {
+    flex: 1;
+    line-height: 1.4;
+}
+
+.dealer-right h2 {
+    font-size: 30px;
+}
+
+.dealer-right p {
+    padding-top: 10px;
+    font-size: 14px;
+    width: 80%;
+}
+
+.dealer-right button {
+    font-size: 15px;
+    border: none;
+    background-color: cornflowerblue;
+    padding: 10px 27px 10px 27px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.dealer-right button:hover {
+    background-color: darkgrey;
+}
+
+
+/* end parts previous page css */
+
+.show-btn {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-btn a {
+    text-decoration: none;
+    font-size: 18px;
+    background-color: cornflowerblue;
+    color: black;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.show-btn a:hover {
+    background-color: white;
+}
+
+.four-types {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.one-type {
+    flex: 1;
+    padding-left: 25px;
+}
+
+.two-type {
+    flex: 1;
+}
+
+.three-type {
+    flex: 1;
+}
+
+.four-type {
+    flex: 1;
+}
+
+.fourul-li {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: black;
+    font-size: 18px;
+    padding-bottom: 50px;
+    line-height: 1.4;
+}
+
+.one-li {
+    flex: 1;
+    padding-left: 25px;
+}
+
+.two-li {
+    flex: 1;
+}
+
+.three-li {
+    flex: 1;
+}
+
+.four-li {
+    flex: 1;
+}
+
+.fourul-li a {
+    text-decoration: none;
+    color: white;
+}
+
+.stay {
+    width: 100%;
+    height: 170px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+}
+
+.stay h2 {
+    padding-left: 30px;
+}
+
+.stay p {
+    font-size: 16px;
+    width: 40%;
+    line-height: 1.6;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white;
+}
+
+.footer .fa {
+    padding: 6px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 25px;
+}
+
+.footer-icons {
+    padding-top: 40px;
+    padding-left: 27px;
+}
